@@ -11,7 +11,6 @@ def higheststudent(city):
     maxi = 0
     maxstu = None
 
-    # Iterate through universities in the city data
     for university in city['data']:
         international_students = int(university['international_students'].replace(',', ''))
         if international_students > maxi:
