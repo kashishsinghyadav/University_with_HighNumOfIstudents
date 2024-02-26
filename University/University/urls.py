@@ -20,6 +20,6 @@ from TopUniversity.views import my_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('topstu/<str:firstcity>/<str:seccity>/', my_view, name='top_stu'),  # Added name argument
+    path('topstu/<str:firstcity>/<str:seccity>/', my_view, name='top_stu'),  
 ]
 
